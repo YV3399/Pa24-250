@@ -3,7 +3,7 @@
  This file is part of FlightGear, the free flight simulator
  http://www.flightgear.org/
 
- Copyright (C) 2010 Dave Perry, skidavem (at) mindspring _dot_ com
+ Copyright (C) 2010 Dave Perry, Gabriel Hernandez (current development 2016) skidavem (at) mindspring _dot_ com
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
@@ -34,23 +34,7 @@
     <name>@</name>
     <desc>toggle fuel pump</desc>
    </key>
-   <key>
-    <name>#</name>
-    <desc>turn on nav lights; turn on and/or dim panel lights</desc>
-   </key>
-   <key>
-    <name>3</name>
-    <desc>increase and/or turn off panel lights and nav lights</desc>
-   </key>
-   <key>
-    <name>$</name>
-    <desc>toggle landing lights</desc>
-   </key>
-   <key>
-    <name>%</name>
-    <desc>toggle turn and bank</desc>
-   </key>
-   <key>
+    <key>
     <name>^</name>
     <desc>toggle rotating beacon</desc>
    </key>
@@ -58,19 +42,7 @@
     <name>*</name>
     <desc>toggle pitot heat</desc>
    </key>
-   <key>
-    <name>(</name>
-    <desc>toggle strobe lights</desc>
-   </key>
-   <key>
-    <name>)</name>
-    <desc>toggle avionics master</desc>
-   </key>
-   <key>
-    <name>h</name>
-    <desc>toggle carburator heat</desc>
-   </key>
-   <key>
+    <key>
     <name>ctrl-P</name>
     <desc>toggle primer pump</desc>
    </key>

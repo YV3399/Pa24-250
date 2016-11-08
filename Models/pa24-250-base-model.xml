@@ -107,6 +107,76 @@
      <object-name>DoorExt</object-name>
    </effect>
 
+<!-- Registration (left) -->
+    <model>
+      <path>Aircraft/pa24-250/Models/registration.xml</path>
+      <condition>
+        <and>
+          <equals>
+            <property>sim/model/door-positions/pax-door/position-norm</property>
+            <value>0</value>
+          </equals>
+          <equals>
+            <property>sim/model/door-positions/baggage-door/position-norm</property>
+            <value>0</value>
+          </equals>
+        </and>
+      </condition>
+       <offsets>
+            <x-m>6.05</x-m>
+            <y-m>-0.35</y-m>
+            <z-m>0.25</z-m>
+            <roll-deg>-1.0</roll-deg>
+            <heading-deg>-1.0</heading-deg>
+        </offsets>
+      <overlay>
+        <params>
+          <size>0.35</size>
+          <alignment>xz-plane</alignment>
+        </params>
+      </overlay>
+    </model>
+
+<!-- Registration (right) -->
+    <model>
+      <path>Aircraft/pa24-250/Models/registration.xml</path>
+     <offsets>
+            <x-m>6.05</x-m>
+            <y-m>0.35</y-m>
+            <z-m>0.25</z-m>
+            <roll-deg>—1.0</roll-deg>
+           <heading-deg>-1.0</heading-deg>
+        </offsets>
+      <overlay>
+        <params>
+          <size>0.35</size>
+          <alignment>reversed-xz-plane</alignment>
+        </params>
+      </overlay>
+    </model>
+
+ <!-- Lights -->
+
+ <model>
+	<path>Aircraft/pa24-250/Models/lights/flash.xml</path>
+	<name>flashright</name>     
+	<offsets>
+		 <x-m>2.64913</x-m>
+                  <y-m>-5.39677</y-m>
+                  <z-m>0.0</z-m> 
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/pa24-250/Models/lights/flash.xml</path>
+	<name>flashleft</name>     
+	<offsets>
+		<x-m>2.64913</x-m>
+                 <y-m>5.39677</y-m>
+                <z-m>0.0</z-m>
+	</offsets>
+
+</model>
 
  <model>
   <name>COMP</name>
@@ -118,43 +188,6 @@
   </offsets>
  </model>
 
-    <model><!-- LH tail reg-->
-        <path>Aircraft/pa24-250/Models/registration.xml</path>
-        <name>LHreg</name>
-        <offsets>
-            <x-m>12.9</x-m>
-            <y-m>-0.036</y-m>
-            <z-m>2.411</z-m>
-            <roll-deg>0.124</roll-deg>
-            <pitch-deg>0</pitch-deg>
-            <heading-deg>1.192</heading-deg>
-        </offsets>
-        <overlay>
-            <params>
-                <size>0.3</size>
-                <alignment>xz-plane</alignment>
-            </params>
-        </overlay>
-    </model>
-
-    <model><!-- RH tail reg-->
-        <path>Aircraft/pa24-250/Models/registration.xml</path>
-        <name>vertical-stab</name>
-        <offsets>
-            <x-m>12.9</x-m>
-            <y-m>0.036</y-m>
-            <z-m>2.411</z-m>
-            <roll-deg>0.124</roll-deg>
-            <pitch-deg>0</pitch-deg>
-            <heading-deg>-1.192</heading-deg>
-        </offsets>
-        <overlay>
-            <params>
-                <size>0.3</size>
-                <alignment>reversed-xz-plane</alignment>
-            </params>
-        </overlay>
-    </model>
 
  <model>
   <name>CLOCK</name>
@@ -469,27 +502,6 @@
   </offsets>
  </model>
 
- <model>
-  <path>Aircraft/pa24-250/Models/StrobeLight.xml</path>
-  <name>StrobeLight.L</name>
-  <nopreview/>
-  <offsets>
-   <x-m>2.64913</x-m>
-   <y-m>-5.39677</y-m>
-   <z-m>0.0</z-m>
-  </offsets>
- </model>
-
- <model>
-  <path>Aircraft/pa24-250/Models/StrobeLight.xml</path>
-  <name>StrobeLight.R</name>
-  <nopreview/>
-  <offsets>
-   <x-m>2.64913</x-m>
-   <y-m>5.39677</y-m>
-   <z-m>0.0</z-m>
-  </offsets>
- </model>
 
  <model>
   <name>YokeLeft</name>
@@ -523,7 +535,7 @@
  </model>
 
   <model>
-    <path>Aircraft/Generic/Effects/tyre-smoke-nose.xml</path>
+    <path>Aircraft/pa24-250/Models/Effects/tyre-smoke-nose.xml</path>
     <name>tyre-smoke-n</name>
     <offsets>
       <x-m>1.14526</x-m>
@@ -533,8 +545,8 @@
   </model>
 
   <model>
-    <path>Aircraft/Generic/Effects/tyre-smoke-port.xml</path>
-    <name>tyre-smoke-p</name>
+    <path>Aircraft/pa24-250/Models/Effects/tyre-smoke-left.xml</path>
+    <name>tyre-smoke-l</name>
     <offsets>
       <x-m>3.0716</x-m>
       <y-m>-1.385485</y-m>
@@ -543,8 +555,8 @@
   </model>
 
   <model>
-    <path>Aircraft/Generic/Effects/tyre-smoke-stbd.xml</path>
-    <name>tyre-smoke-s</name>
+    <path>Aircraft/pa24-250/Models/Effects/tyre-smoke-right.xml</path>
+    <name>tyre-smoke-r</name>
     <offsets>
       <x-m>3.0716</x-m>
       <y-m>1.385485</y-m>
