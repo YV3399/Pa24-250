@@ -155,6 +155,17 @@
                       </script>
                   </binding>
               </item>
+             <item>
+			<name>lights</name>
+			<label>Lights</label>
+				<binding>
+					<command>nasal</command>
+					<script>
+				var lights = gui.Dialog.new("sim/gui/dialogs/lights/dialog", "Aircraft/Pa24-250/Systems/lights-dlg.xml");
+						lights.open();
+					</script>
+				</binding>
+		  </item>
           </menu>
       </default>
   </menubar>
@@ -425,6 +436,33 @@
    </mod-up>
   </key>
 
+<key n="263">
+	<name>F7</name>
+	<desc>Show map</desc>
+	<binding>
+	<command>dialog-show</command>
+	<dialog-name>map</dialog-name>
+	</binding>
+</key>
+
+<key n="264">
+	<name>F8</name>
+	<desc>Show router manager</desc>
+	<binding>
+	<command>dialog-show</command>
+	<dialog-name>route-manager</dialog-name>
+	</binding>
+</key>
+
+
+      <key n="268">
+        <name>F12</name>
+        <desc>Pop radio stack</desc>
+        <binding>
+          <command>nasal</command>
+          <script>dialogs.radio.toggle()</script>
+        </binding>
+      </key>
 </keyboard> 
 
 </input>
