@@ -111,7 +111,8 @@
                   </script>
                 </binding>
               </item>
-<item>
+          
+          <item>
             <label>A/C Registration</label>
             <binding>
               <command>nasal</command>
@@ -128,6 +129,7 @@
                       <property>/sim/model/hide-yoke</property>
                   </binding>
               </item>
+
               <item>
                   <label>Open/close Front door</label>
                   <binding>
@@ -137,6 +139,7 @@
                       </script>
                   </binding>
               </item>
+
               <item>
                   <label>Open/close Baggage door</label>
                   <binding>
@@ -146,6 +149,7 @@
                       </script>
                   </binding>
               </item>
+
               <item>
                   <label>Load/Remove Baggage</label>
                   <binding>
@@ -155,7 +159,8 @@
                       </script>
                   </binding>
               </item>
-             <item>
+
+                     <item>
 			<name>lights</name>
 			<label>Lights</label>
 				<binding>
@@ -436,23 +441,23 @@
    </mod-up>
   </key>
 
-<key n="263">
+   <key n="263">
 	<name>F7</name>
 	<desc>Show map</desc>
 	<binding>
 	<command>dialog-show</command>
 	<dialog-name>map</dialog-name>
 	</binding>
-</key>
+   </key>
 
-<key n="264">
+   <key n="264">
 	<name>F8</name>
 	<desc>Show router manager</desc>
 	<binding>
 	<command>dialog-show</command>
 	<dialog-name>route-manager</dialog-name>
 	</binding>
-</key>
+   </key>
 
 
       <key n="268">
@@ -463,6 +468,7 @@
           <script>dialogs.radio.toggle()</script>
         </binding>
       </key>
+
 </keyboard> 
 
 </input>
@@ -488,3 +494,4 @@
 </nasal>
 
 </PropertyList>
+
