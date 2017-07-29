@@ -28,7 +28,7 @@
     <red>0.1</red>
     <green>0.02</green>
     <blue>0.00001</blue>
-   <factor-prop>/sim/model//material/instruments/factor</factor-prop>
+  <property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
 

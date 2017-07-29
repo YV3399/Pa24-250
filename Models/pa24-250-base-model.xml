@@ -52,7 +52,7 @@
    <red>0.45</red>
    <green>0.09</green>
    <blue>0.000045</blue>
-   <factor-prop>sim/model/material/instruments/factor</factor-prop>
+  <property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
 
@@ -83,7 +83,7 @@
    <red>0.1</red>
    <green>0.02</green>
    <blue>0.00001</blue>
-   <factor-prop>sim/model/material/instruments/factor</factor-prop>
+  <property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
  
@@ -137,7 +137,7 @@
     <red>0.25</red>
     <green>0.25</green>
     <blue>0.25</blue>
-	    <factor-prop>/controls/lighting/panel-norm[0]</factor-prop>
+	    <property>controls/lighting/panel-norm</property>
  </emission>
 </animation> 
 
@@ -230,7 +230,7 @@
 
  <model>
   <name>COMP</name>
-  <path>Aircraft/Instruments-3d/comp/comp.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/comp/comp.xml</path>
   <offsets>
    <x-m>2.258</x-m>
    <y-m>0.000</y-m>
@@ -241,7 +241,7 @@
 
  <model>
   <name>CLOCK</name>
-  <path>Aircraft/Instruments-3d/clock/clock.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/clock/clock.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.4915</y-m>
@@ -251,7 +251,7 @@
 
  <model>
   <name>ASI</name>
-  <path>Aircraft/Instruments-3d/asi-pa24/asi.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/asi-pa24/asi.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.41725</y-m>
@@ -261,7 +261,7 @@
 
  <model>
   <name>AI</name>
-  <path>Aircraft/Instruments-3d/ai/ai.xml</path>
+ <path>Aircraft/pa24-250/Models/Instruments/ai/ai.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.1765</y-m>
@@ -271,7 +271,7 @@
 
  <model>
   <name>ALT</name>
-  <path>Aircraft/Instruments-3d/alt/alt.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/alt/alt.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.4162</y-m>
@@ -291,7 +291,7 @@
 
  <model>
   <name>VOR1</name>
-  <path>Aircraft/Instruments-3d/vor/vor.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/vor/vor.xml</path>
   <offsets>
    <x-m>2.16802</x-m>
    <y-m>-0.025</y-m>
@@ -301,7 +301,7 @@
 
  <model>
   <name>VOR2</name>
-  <path>Aircraft/Instruments-3d/vor/vor2.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/vor/vor2.xml</path>
   <offsets>
    <x-m>2.16802</x-m>
    <y-m>-0.025</y-m>
@@ -311,7 +311,7 @@
 
  <model>
   <name>GPS</name>
-  <path>Aircraft/Instruments-3d/gps-ind/gps.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/gps-ind/gps.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.0242</y-m>
@@ -321,7 +321,7 @@
 
  <model>
   <name>ADF</name>
-  <path>Aircraft/Instruments-3d/adf/adf.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/adf/adf.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>0.08104</y-m>
@@ -331,7 +331,7 @@
 
  <model>
   <name>TC</name>
-  <path>Aircraft/Instruments-3d/tc/tc.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/tc/tc.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.2135</y-m>
@@ -341,7 +341,7 @@
 
  <model>
   <name>HI</name>
-  <path>Aircraft/Instruments-3d/hi/hi.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/hi/hi.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.30148</y-m>
@@ -351,7 +351,7 @@
 
  <model>
   <name>VSI</name>
-  <path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/vsi/vsi.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.12265</y-m>
@@ -361,7 +361,7 @@
 
  <model>
   <name>FUEL-AMPS</name>
-  <path>Aircraft/Instruments-3d/pa24-fuel-oil-amps/pa24-fuel-amps.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/pa24-fuel-oil-amps/pa24-fuel-amps.xml</path>
   <offsets>
    <x-m>2.166</x-m>
    <y-m>0.3958</y-m>
@@ -371,7 +371,7 @@
 
  <model>
   <name>OIL</name>
-  <path>Aircraft/Instruments-3d/pa24-fuel-oil-amps/pa24-oil.xml</path>
+ <path>Aircraft/pa24-250/Models/Instruments/pa24-fuel-oil-amps/pa24-oil.xml</path>
   <offsets>
    <x-m>2.1665</x-m>
    <y-m>0.3943</y-m>
@@ -391,7 +391,7 @@
 
  <model>
   <name>TACH</name>
-  <path>Aircraft/Instruments-3d/tach/tach.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/tach/tach.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>0.3642</y-m>
@@ -401,7 +401,7 @@
 
  <model>
   <name>MP</name>
-  <path>Aircraft/Instruments-3d/mp/mp.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/mp/mp.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>0.272</y-m>
@@ -411,7 +411,7 @@
 
  <model>
   <name>VAC</name>
-  <path>Aircraft/Instruments-3d/vac/vac.xml</path>
+   <path>Aircraft/pa24-250/Models/Instruments/vac/vac.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>0.4335</y-m>
@@ -421,7 +421,7 @@
 
  <model>
   <name>FlapIndicator</name>
-  <path>Aircraft/Instruments-3d/flap-ind/flap-indicator.xml</path>
+  <path>Aircraft/pa24-250/Models/Instruments/flap-ind/flap-indicator.xml</path>
   <offsets>
    <x-m>2.1664</x-m>
    <y-m>-0.01940</y-m>

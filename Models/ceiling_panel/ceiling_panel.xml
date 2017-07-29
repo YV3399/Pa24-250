@@ -31,7 +31,7 @@
    <red>0.2</red>
    <green>0.04</green>
    <blue>0.00002</blue>
-   <factor-prop>sim/model/material/instruments/factor</factor-prop>
+  <property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
 
@@ -42,7 +42,7 @@
    <red>1.0</red>
    <green>0.0</green>
    <blue>0.0</blue>
-   <factor-prop>sim/model/material/instruments/factor</factor-prop>
+<property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
 
@@ -143,7 +143,7 @@
    <red>1.0</red>
    <green>1.0</green>
    <blue>1.0</blue>
-   <factor-prop>controls/lighting/map-lights</factor-prop>
+  <property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
 
@@ -156,7 +156,7 @@
      <button>0</button>
      <binding>
        <command>property-toggle</command>
-       <property>controls/switches/cabin-lights</property>
+     <property>controls/lighting/panel-norm</property>
      </binding>
    </action>
  </animation>
@@ -165,7 +165,7 @@
   <name>CabinLightSW</name>
   <type>translate</type>
   <object-name>cabinLightSwitch</object-name>
-  <property>controls/switches/cabin-lights</property>
+ <property>controls/lighting/panel-norm</property>
   <factor>0.01</factor>
   <axis>
    <x>0</x>
@@ -181,7 +181,7 @@
    <red>1.0</red>
    <green>1.0</green>
    <blue>1.0</blue>
-   <factor-prop>controls/lighting/cabin-lights</factor-prop>
+  <property>controls/lighting/panel-norm</property>
   </emission>
  </animation>
 
