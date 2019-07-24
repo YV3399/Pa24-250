@@ -14,7 +14,7 @@ copilot and no bagage.
  This file is part of FlightGear, the free flight simulator
  http://www.flightgear.org/
 
- Copyright (C) 2010 Dave Perry, Gabriel Hernandez (current development 2016), skidavem (at) mindspring _dot_ com
+ Copyright (C) 2010 Dave Perry, Gabriel Hernandez (current development 2019), skidavem (at) mindspring _dot_ com
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
@@ -32,7 +32,7 @@ copilot and no bagage.
 
   <description>Piper Comanche 250</description>
   <author>Gabriel Hernandez (YV3399)</author>
-  <status>production</status>
+  <status>0.5</status>
 
   <systems>
    <electrical>
